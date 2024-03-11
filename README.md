@@ -28,8 +28,8 @@ For the forward propogation cycle, I mainly labeled my matrices:
 For the loss function, I decided to use the binary `cross-entropy loss function` to essentially fuel my backpropagation cycle. I calculated each gradient that I would need by utilizing the chain rule (everyone's favorite), and by doing this, I was able to simplify some of the equations which was pretty satisfying. Also, I was able to analyze each matrix dimension for the various equations and determine which matrices to transpose in order to get consistent dimenions for the gradient and its corresponding variable. For example, dw2 and w2 would have to have the same dimensions, as well as db2 and b2.
 
 ## Results
-<img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/0e3879be-966e-4e27-bf0d-3552ad5bbf48" width="600">
-<img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/2f471141-b929-438f-b413-b92097640517" width = "300">
+<img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/0e3879be-966e-4e27-bf0d-3552ad5bbf48" width="500">
+<img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/2f471141-b929-438f-b413-b92097640517" width = "230">
 <br />
 <br />
 
