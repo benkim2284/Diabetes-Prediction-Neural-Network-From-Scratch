@@ -4,7 +4,8 @@ I developed a two-layer neural network from scratch to predict diabetes onset. L
 <br />
 
 # Building the Neural Network
-In order to simplify the math process later on and to save myself a headache, I decided to outline the math for the forward and backward propagation cycles. For the forward propogation cycle, I mainly labeled my matrices: `x` is the input, `b`'s are the biases, `z`'s are the dot product of the input and weight plus the bias, `a`'s are the result of applying the activation function to the z's, and `y_hat` is the predicted output.
+In order to simplify the math process later on and to save myself a headache, I decided to outline the math for the forward and backward propagation cycles. For the forward propogation cycle, I mainly labeled my matrices: 
+* `x` is the input, `b`'s are the biases, `z`'s are the dot product of the input and weight plus the bias, `a`'s are the result of applying the activation function to the z's, and `y_hat` is the predicted output.
 
 <br />
 
