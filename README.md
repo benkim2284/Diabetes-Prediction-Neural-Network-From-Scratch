@@ -40,6 +40,7 @@ After experimentation with:
 
 I was able to achieve a training accuracy of `80%` and a testing accuracy of `78%`. Overall, the model had good statistical generalization, as it was able to generalize well to the testing data. 
 <br />
+<br />
 `I give this a 10/10 learning experience, would recommend 👍!`
 
 
