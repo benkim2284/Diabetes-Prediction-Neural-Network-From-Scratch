@@ -29,6 +29,7 @@ For the loss function, I decided to use the binary `cross-entropy loss function`
 
 ## Results
 <img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/0e3879be-966e-4e27-bf0d-3552ad5bbf48" width="600">
+<img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/2f471141-b929-438f-b413-b92097640517" width = "500">
 <br />
 <br />
 
