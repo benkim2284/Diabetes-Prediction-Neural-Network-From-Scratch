@@ -2,10 +2,10 @@
 I developed a two-layer neural network from scratch to predict diabetes onset. Leveraging the Leaky ReLU and sigmoid activation functions enabled effective binary classification. Utilizing the binary cross-entropy loss function, I was able to facilitate accurate gradient calculations and enable successful implementation of backpropagation. After iteratively updated the weights and biases, I was able to achieve an `80%` training accuracy and `78%` testing accuracy. 
 
 ## Overall Structure
-I decided to create a two layer neural network, with the middle layer having 25 nodes, and the output having one node. For the middle layer's activation function, I decided to use the `leaky reLU` (leaky rectified linear unit) activation function rather than just the standard reLU in order to prevent any vanishing gradient issues during the training process. The outer layer's activation function is the `sigmoid` function, which is effective for binary classification.  
+I decided to create a two layer neural network, with the middle layer having 25 nodes, and the output layer having a single node. For the middle layer's activation function, I decided to use the `leaky reLU` (leaky rectified linear unit) activation function rather than just the standard reLU in order to prevent any vanishing gradient issues during the training process. The outer layer's activation function is the `sigmoid` function, which is effective for binary classification as it outputs a value in the range of (0,1). 
 
 ## Data Preprocessing
-<img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/2f23b47b-e811-4c85-b512-554d1b2b48b2" width="374">
+<img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/23c853a0-769f-4307-b632-6f976dfdf2fb" width="374">
 <br />
 <br />
 Before using the dataset to train the model, I first confirmed that there were no NaN values. However, the dataset did contain 0 values in certain columns where such values are physiologically improbable. For example, it would be highly unusual to observe a blood pressure or BMI of 0. To tackle this, I used a KNN Imputer to impute these "missing values". 
