@@ -6,8 +6,9 @@ I decided to create a two layer neural network, with the middle layer having 25 
 
 
 ## Building the Neural Network
-<img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/06f6fa23-1527-4f7d-812b-6fc389d32031" width="500"/>
-<img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/2c65a347-1a08-4124-ad70-82a8dd4d5f6c" width="480"/>
+<img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/06f6fa23-1527-4f7d-812b-6fc389d32031" width="400"/>
+<img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/2c65a347-1a08-4124-ad70-82a8dd4d5f6c" width="384"/>
+<br />
 
 In order to simplify the math process later on and to save myself a headache, I decided to outline the math for the forward and backward propagation cycles. For the forward propogation cycle, I mainly labeled my matrices: 
 * `x` is the input matrix
@@ -16,7 +17,6 @@ In order to simplify the math process later on and to save myself a headache, I 
 * `z` is the dot product of the input and weight plus the bias
 * `a` is the result of applying the activation function to `z`
 * `y_hat` is the predicted output
-
 <br />
 
 For the loss function, I decided to use the binary cross-entropy loss function to essentially fuel my backpropagation cycle. I calculated each gradient that I would need by utilizing the chain rule (everyone's favorite), and by doing this, I was able to simplify some of the equations which was pretty satisfying. Also, I was able to analyze each matrix dimension for the various equations and determine which matrices to transpose in order to get consistent dimenions for the gradient and its corresponding variable. For example, dw2 and w2 would have to have the same dimensions, as well as db2 and b2. 
