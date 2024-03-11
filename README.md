@@ -7,6 +7,7 @@ I decided to create a two layer neural network, with the middle layer having 25 
 ## Data Preprocessing
 <img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/2f23b47b-e811-4c85-b512-554d1b2b48b2" width="374">
 <br />
+<br />
 Before using the dataset to train the model, I first confirmed that there were no NaN values. However, the dataset did contain 0 values in certain columns where such values are physiologically improbable. For example, it would be highly unusual to observe a blood pressure or BMI of 0. To tackle this, I used a KNN Imputer to impute these "missing values". 
 
 ## Building the Neural Network
