@@ -11,6 +11,7 @@ Before using the dataset to train the model, I first confirmed that there were n
 ### Neural Network Math
 In order to simplify the math process later on and to save myself a headache, I decided to outline the math for the forward and backward propagation cycles.
 <br />
+<br />
 <img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/06f6fa23-1527-4f7d-812b-6fc389d32031" width="400"/>
 <img src="https://github.com/benkim2284/Diabetes-Prediction-Neural-Network-From-Scratch/assets/114448555/2c65a347-1a08-4124-ad70-82a8dd4d5f6c" width="384"/>
 
