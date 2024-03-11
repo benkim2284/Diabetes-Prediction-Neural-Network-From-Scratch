@@ -36,9 +36,9 @@ After experimentation with:
 * the number of nodes in the hidden layer
 * the learning rate
 * the number of epochs
-<br />
+* and much more...
 
-I was able to achieve a training accuracy of `80%` and a testing accuracy of `78%`. Overall, the model had good statistical generalization, as it was able to generalize well to the testing data.
+I was able to achieve a training accuracy of `80%` and a testing accuracy of `78%`. Overall, the model had good statistical generalization, as it was able to generalize well to the testing data. `I give this a 10/10 learning experience, would recommend 👍!`
 
 
 
