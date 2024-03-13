@@ -1,4 +1,4 @@
-# Diabetes Prediction Neural Network From Scratch 
+# Diabetes Prediction Neural Network From Scratch  
 I developed a two-layer neural network from scratch to predict diabetes onset. Leveraging the Leaky ReLU and sigmoid activation functions enabled effective binary classification. Utilizing the binary cross-entropy loss function, I was able to facilitate accurate gradient calculations and enable successful implementation of backpropagation. After iteratively updated the weights and biases, I was able to achieve an `80%` training accuracy and `78%` testing accuracy. 
 
 ## Overall Structure
